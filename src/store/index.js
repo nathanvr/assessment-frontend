@@ -5,11 +5,9 @@ import {
 } from "redux";
 import thunk from "redux-thunk";
 import productReducer from "./reducers/Product.reducer";
-import productDetailReducer from "./reducers/ProductDetail.reducer";
 
 const rootReducer = combineReducers({
-  productReducer,
-  productDetailReducer
+  productReducer
 });
 
 const middleware = applyMiddleware(thunk);
