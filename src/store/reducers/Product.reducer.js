@@ -5,7 +5,7 @@ const POST_LOADING = "POST_LOADING";
 const POST_ERR = "POST_ERR";
 
 // action creator
-export const getProduct = () =>{
+export const getProduct = () => {
   return function (dispatch) {
     dispatch({ type: POST_LOADING, payload: true });
     axios

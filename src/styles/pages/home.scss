@@ -1,15 +1,11 @@
-.home__container{
-    display: flex;
-    flex-direction: column;
-    
+.home__container {
+  display: flex;
+  flex-direction: column;
 
-    
-    .home__container__product{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 30px 30px;
-        margin: 30px;
-        
-    }
-    
+  .home__container__product {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 30px;
+    margin: 30px;
+  }
 }
