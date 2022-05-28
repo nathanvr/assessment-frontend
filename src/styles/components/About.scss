@@ -1,0 +1,35 @@
+.about{
+    background-color: rgb(234, 245, 255);
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    margin: auto;
+    
+    
+
+    .about__img{
+        padding-top: 10px ;
+
+        img{
+            width: 230px;
+            border: 1px solid black;
+        }
+            
+        
+    }
+    .about__learn{
+
+        margin: 15px 0;
+  
+    }
+
+    .about__contact{
+        margin: 15px 0;
+        p{
+            font-size: 12px;
+        }
+    }
+        
+
+
+}
